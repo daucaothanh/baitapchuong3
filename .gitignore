@@ -1,4 +1,10 @@
-git add .gitignore
-git commit -m "Add venv/ to .gitignore to avoid tracking virtual environment"
+# Python virtual env
+venv/
 
+# Env file with secrets
+*.env
+email.env
 
+# Byte‑compiled / caches
+__pycache__/
+*.py[cod]
