@@ -1,2 +1,4 @@
-.env
+git add .gitignore
+git commit -m "Add venv/ to .gitignore to avoid tracking virtual environment"
+
 
